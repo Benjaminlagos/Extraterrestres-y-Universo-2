@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+body{
+	font-family: elvetica;
+	background:#FFFFFA;
+}
+header{
+	width:100%;
+	overflow:hidden;
+	background:#252932;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.8) ;
+	margin:  auto;
+	max-width: 1000px;
+	width: 90%
+	overflow:hidden;
+}
+
+
+section {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px ;
+}
+
+header .logo{
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header nav{
+	float: right;
+	line-height: 200px;
+}
+
+header nav a{
+	display:inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover{
+	background: #E72727;
+	border-radius: 50px;
+}
+.header2{
+	position: fixed;
+	height:100px;
+}
+
+.header2 .logo{
+	line-height: 100px;
+	font-size: 30px;
+}
+
+.header2 nav{
+	line-height:100px;
+}
+
+.Contenido p{
+	margin-bottom:1em;
+}
+
+@media screen and (max-width: 950px) {
+	header .logo
+	header nav{
+		width:100%;
+		text-align:center;
+		line-height:100px;
+	}
+	.header2{
+		height: auto;
+	}
+	.header2 .logo,
+	.haader2 nav{
+		line-height:50px;
+	}
+}
+.social{
+	position: fixed;
+	left: 0;
+	top:200px;
+}
+
+h1 {
+	background-color: black;
+	bottom: 0;
+	color: yellow;
+	text-align: center;
+	text-align: justify-all;
+	
+}
+
+h3>a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+.enlaces>ul>li{
+    display: inline-block;
+    padding: 10px;
+    width: 24%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+#pie{
+	background: #dad7d7;
+	text-align: center;
+	padding: 20px;
+}
+
+#piepag>ul>li{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+#pie>p{
+	color: #434343;
+	font-size: .8em;
+	padding-top: 20px;
+} 
+
+.dulcedos{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 3px;
+	display: inline-block;
+
+}
+
+.dulcedos{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.dulcedos{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+
+

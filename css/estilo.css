@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+body{
+	background: #434343;
+}
+
+/* estilo de la caja de flexslider*/
+
+#conteneflex, #segunda{
+	background: rgba(255,255,255,.5);
+	margin: 30px auto;
+	width: 80%;
+}
+
+header, section, footer{
+	background: #43ff43;
+	margin: 20px auto;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+}
+
+h1{
+	font-size: 3em;
+}
